@@ -1,21 +1,21 @@
 
-function getLeapYear(year) {
-  if(year % 4 === 0){
-      if(year % 100 === 0) {
-          if(year % 400 === 0){
-               return "is a leap year";
-          }
-           return "not a leap year";
-      } else {
-          return "is a leap year";
-      }
-       return "is a leap year";
-  } else {
-      return ("is not a leap year");
-  }
-}
-let leap =  getLeapYear(2023);
-  console.log(leap);
+// function getLeapYear(year) {
+//   if(year % 4 === 0){
+//       if(year % 100 === 0) {
+//           if(year % 400 === 0){
+//                return "is a leap year";
+//           }
+//            return "not a leap year";
+//       } else {
+//           return "is a leap year";
+//       }
+//        return "is a leap year";
+//   } else {
+//       return ("is not a leap year");
+//   }
+// }
+// let leap =  getLeapYear(2023);
+//   console.log(leap);
 
 
 // var playGame = [];
@@ -71,29 +71,46 @@ let leap =  getLeapYear(2023);
 
 // USING ONLY IF STATEMENT
 
-var outPut = [];
+// var outPut = [];
 
-function playFizBuz(){
+// function playFizBuz(){
 
-  for(var count = 1; count < 100; count++ ) {
+//   for(var count = 1; count < 100; count++ ) {
 
-     if(count % 3 === 0 && count % 5 === 0){
-        if( count % 3 === 0){
-            if( count % 5 === 0){
-                outPut.push("Buzz");
-            } else {
-                outPut.push(count);
-            }
-            outPut.push("fizz")
-        } else {
-            outPut.push(count); 
-        }
-        outPut.push("fizzBuzz");
-     } else {
-        outPut.push(count);
-     }
-  }
-console.log(outPut);
-}
+//      if(count % 3 === 0 && count % 5 === 0){
+//         if( count % 3 === 0){
+//             if( count % 5 === 0){
+//                 outPut.push("Buzz");
+//             } else {
+//                 outPut.push(count);
+//             }
+//             outPut.push("fizz")
+//         } else {
+//             outPut.push(count); 
+//         }
+//         outPut.push("fizzBuzz");
+//      } else {
+//         outPut.push(count);
+//      }
+//   }
+// console.log(outPut);
+// }
 
- playFizBuz();
+//  playFizBuz();
+
+
+// function FibonacciLogic(n){
+//     var outPut = [];
+//     if(n ===1 ){
+//         outPut = [0];
+//     } else if(n === 2) {
+//         outPut = [0, 1]
+//     } else {
+//         outPut = [0, 1, 2];
+//     }
+   
+//   return outPut;
+// console.log(outPut);
+// }
+
+// FibonacciLogic(4);
